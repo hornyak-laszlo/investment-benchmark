@@ -7,6 +7,7 @@ const monthlyInvestmentSchema = new Schema({
   index: String,
   boughtAmount: Number,
   boughtCurrency: String,
+  userId: String,
   startedAtYear: Number,
   startedAtMonth: Number,
   endedAtYear: Number,
